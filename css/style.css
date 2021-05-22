@@ -8,13 +8,13 @@
 
 }
 
-.navegacao {
+header {
 
 	background-color: #3074B9;
 }
 
 nav {
-
+	
 	position: absolute;
 	top:50px;
 	right:200px;
@@ -22,7 +22,7 @@ nav {
 }
 
 nav li {
-	position: sticky;
+	
 	display: inline;
 	margin: 0 0 0 20px;
 }
@@ -36,6 +36,8 @@ nav a {
 	text-decoration: none;
 
 }
+
+
 /* -----------------PAGE HOME-----------------*/
 
 body {
@@ -114,8 +116,8 @@ body {
 
 .botao-principal:hover{
 	transition: 1s background;
-	background-color: #3074B9;
-	color: #FFFFFF ;
+	background-color: #F2B30F;
+	cursor: pointer;
 }
 
 /*-----------------container da seção do jornada-----------------*/
@@ -211,7 +213,7 @@ body {
 	padding-top: 10px;
 	margin-left: 5%;
 	font-size: 22px;
-	font-weight: bold;
+
 
 }
 
@@ -220,14 +222,15 @@ body {
 
 	width: 70%;
 	font-weight: bold;
-    position: relative;
-    margin-top: 50%;
-    background: #FCC817;
-    padding: 20px 0 20px 0;
-    border-radius: 16px;
-    border: none;
-    font-family: 'Montserrat', sans-serif;
+	position: relative;
+	margin-top: 50%;
+	background: #FCC817;
+	padding: 20px 0 20px 0;
+	border-radius: 16px;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 1.4rem;
+	cursor: pointer;
 }
 
 .botao-diferenciais:hover {
@@ -238,33 +241,220 @@ body {
 }
 
 
-/*-------------------------------------*/
+/*-----------------container da seção de prefeituras-----------------*/
+#cont-serv-prefeituras {
+	width: 100%;
+	padding: 4% 0 10% 0;
+	position: relative;
+	margin: auto;
+	background-color: #FFFFFF;
+}
+
+.titulo-terciario {
+	margin-left: 8%;
+	padding-bottom: 2%;
+}
+
+.paragrafo-prefeitura {
+	display: inline-block;
+	position: relative;
+	width: 50%;
+	margin-left: 8%;
+	line-height: 2rem;
+	padding-bottom: 5%;
+}
+
+.box4 {
+	display: inline-block;
+	width: 100%;
+}
+
+.div-primeira {
+	margin-left: 8%;
+	display: inline-block;
+	position: relative;
+	vertical-align: baseline;
+}
+
+
+
+
+.div-segunda {
+	
+	margin-left: 15%;
+	display: inline-block;
+	position: absolute;
+}
+
+
+.agilidade {
+	margin-top: 1%;
+	margin-bottom: 10%;
+	display: inline-block;
+	position: absolute;
+	height: 4px;
+	width: 140px;
+	background-color: #FCC817;
+}
+
+
+.facilidade {
+
+	margin-top: 1%;
+	margin-bottom: 10%;
+	display: inline-block;
+	position: absolute;
+	height: 4px;
+	width: 150px;
+	background-color: #FCC817;
+}
+
+.informacao {
+
+	margin-top: 1%;
+	margin-bottom: 10%;
+	display: inline-block;
+	position: absolute;
+	height: 4px;
+	width: 176px;
+	background-color: #FCC817;
+}
+
+.desenvolvimento {
+
+	margin-top: 1%;
+	margin-bottom: 10%;
+	display: inline-block;
+	position: absolute;
+	height: 4px;
+	width: 253px;
+	background-color: #FCC817;
+}
+
+/*-----------------container da seção final-----------------*/
+#cont-final {
+
+	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+	padding: 4% 0 10% 0;
+	position: relative;
+	margin: auto;
+	background-color: #F5F5F5;
 
 }
 
+#cont-final img {
+
+	width:300px;
+	margin-left: 15%;
+	
+}
+
+
+#cont-final h1 {
+
+	display: block;
+	position: relative;
+	margin-left: 20%;
+	margin-bottom: 1%;
+}
+
+#cont-final div {
+
+	display: inline-block;
+	position: absolute;
+	width: 50%;
+	margin-left: 10%;
+}
+
+
+.parag-primario {
+	width: 40%;
+	display: block;
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 8%;
+}
+
+.parag-secundario {
+	
+	position: absolute;
+	font-size: 18px;
+	margin-left: 20%;
+	margin-top: 23%;
+
+}
+
+
+.botao-secundario {
+	display: block;
+	position: absolute;
+	width: 300px;
+	height: 70px;
+	margin-top: 30%;
+	margin-left: 20%;
+	
+	
+	
+
+	background: #FCC817;
+	box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
+	border-radius: 16px;
+	border: none;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+
+}
+
+.botao-secundario:hover{
+	transition: 1s background;
+	background-color: #F2B30F;
+	cursor: pointer;
+}
+
+
+
+/*-------------------------------------*/
 .titulo {
 
 	color: #3074B9
 }
 
+.sub-titulos {
+	font-weight: bold;
+	color: #0D4680;
+}
 
 
 /* -------------RODAPÉ-----------------*/
 
 footer{
 
-	position: relative;
-	padding: 15px 0px;
+	display: inline-block;
+	position: relative; 
+	padding: 2% 0 10% 0;
 	text-align: center;
 	width: 100%;
+	background-color: #0D4680;
 }
+
 
 footer p {
-
-	color: black;
+	
+	color: #FFFFFF;
 	font-size: 13px;
-	margin-top: 20px;
+
 
 }
+
+.logorodape {
+
+	width: 5%;
+	display: inline-block;
+	position: absolute;
+	left: 5%;
+}
+
+
 
 
