@@ -174,10 +174,12 @@ button:active {
   transform: scale(0.99);
 }
 
+/* -------------RODAPÉ-----------------*/
+
 .footer {
   background-color: #0d4680;
   bottom: 0;
-  padding-bottom: 130px;
+  padding-bottom: 120px;
 }
 
 .footer img {

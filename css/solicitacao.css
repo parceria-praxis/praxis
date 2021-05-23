@@ -180,6 +180,8 @@ button:active {
   transform: scale(0.99);
 }
 
+/* -------------RODAPÉ-----------------*/
+
 .footer {
   background-color: #0d4680;
   bottom: 0;
