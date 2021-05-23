@@ -7,6 +7,11 @@ body {
   font-size: "Montserrat", sans-serif;
 }
 
+
+a {
+	color: white;
+}
+
 /*--------------------*\
   NAV
 \*--------------------*/

@@ -9,6 +9,11 @@ header {
   background-color: #3074b9;
 }
 
+
+a {
+	color: white;
+}
+
 nav {
   position: absolute;
   top: 50px;
