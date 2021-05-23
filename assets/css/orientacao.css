@@ -1,0 +1,504 @@
+/*-----------------NAVEGAÇÃO-----------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3074b9;
+}
+
+nav {
+  position: absolute;
+  top: 50px;
+  right: 200px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 20px;
+}
+
+nav a {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+
+  text-decoration: none;
+}
+
+/*------------------TÍTULOS------------------*/
+
+.titulo {
+  color: #3074b9;
+}
+
+.sub-titulos {
+  font-weight: bold;
+  color: #0d4680;
+}
+
+/*------------------CORPO------------------*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+}
+
+.logo {
+  display: inline-block;
+  width: 10%;
+  padding: 20px 50px 20px 150px;
+}
+
+/*------------------container da seção do conheça------------------*/
+
+#cont-conheca {
+  width: 100%;
+  padding: 3% 0 15% 0;
+  position: relative;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+.bloco1 {
+  display: inline-block;
+  width: 40%;
+  margin-left: 10%;
+}
+
+#cont-conheca h1 {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 10%;
+}
+
+#cont-conheca p {
+  line-height: 2rem;
+  display: inline-block;
+  position: relative;
+}
+
+#cont-conheca img {
+  position: absolute;
+  width: 25%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+#cont-conheca button {
+  margin-top: 4%;
+  text-decoration: underline;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  color: #0d4680;
+}
+
+.caixa1 {
+  width: 80%;
+  position: relative;
+  display: inline-flex;
+  margin-left: 8%;
+}
+
+.caixa1 li {
+  list-style: none;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
+  vertical-align: top;
+  margin: 0 8%;
+  padding: 3% 4%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+
+.caixa1 h3 {
+  text-align: center;
+  margin-bottom: 15%;
+}
+
+.caixa1 p {
+  display: inline-block;
+  margin-bottom: 10%;
+  margin-left: 20%;
+}
+
+.caixa1 img {
+  position: absolute;
+  width: 2%;
+}
+
+/*------------------container banner2------------------*/
+
+#banner2 {
+  width: 100%;
+  padding: 3% 0 2% 0;
+  position: relative;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+#banner2 img {
+  display: inline-block;
+  width: 100%;
+  padding: 10% 0 1% 0;
+}
+
+#banner2 div {
+  position: absolute;
+  text-align: center;
+  top: 46%;
+  width: 46%;
+  margin-left: 30%;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+/*------------------container da seção do jornada------------------*/
+
+#jornada {
+  display: inline-flex;
+  width: 80%;
+  padding: 1% 0 10% 0;
+  position: relative;
+  background-color: #ffffff;
+  margin-left: 10%;
+}
+
+#jornada h1 {
+  margin-bottom: 10%;
+}
+
+#jornada img {
+  height: 30%;
+  width: 30%;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.bloco2 {
+  width: 30%;
+}
+
+.abertura {
+  position: absolute;
+  width: 300px;
+  height: 70px;
+  margin-top: 5%;
+
+  background: #3074b9;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  border: none;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+.abertura:hover {
+  transition: 1s background;
+  background-color: #498cd0;
+
+  cursor: pointer;
+}
+
+/*------------------container da seção do passos------------------*/
+
+#passos {
+  display: inline-flex;
+  width: 80%;
+  padding: 2% 0 10% 0;
+  position: relative;
+  background-color: #ffffff;
+  margin-left: 5%;
+}
+
+#passos h1 {
+  margin-bottom: 10%;
+}
+
+#passos img {
+  height: 30%;
+  text-align: left;
+  width: 30%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.bloco3 {
+  text-align: right;
+  width: 30%;
+  margin-left: 30%;
+}
+
+.compromissos {
+  position: relative;
+  width: 350px;
+  height: 70px;
+  margin-top: 10%;
+  margin-left: 5%;
+
+  background: #3074b9;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  border: none;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+.compromissos:hover {
+  transition: 1s background;
+  background-color: #498cd0;
+
+  cursor: pointer;
+}
+
+/*------------------container da seção do passos------------------*/
+
+.logo-araguaina1 {
+  display: block;
+  width: 50%;
+  position: relative;
+  margin-top: 40%;
+}
+
+#licenças {
+  display: inline-flex;
+  width: 80%;
+  padding: 2% 0 10% 0;
+  position: relative;
+  background-color: #ffffff;
+}
+
+#licenças h1 {
+  margin-bottom: 10%;
+}
+
+.imglicenca {
+  height: 30%;
+  width: 35%;
+  margin-left: 20%;
+}
+
+.bloco4 {
+  width: 40%;
+  margin-left: 10%;
+}
+
+.minhas-licenças {
+  position: absolute;
+  width: 350px;
+  height: 70px;
+  margin-top: 5%;
+
+  background: #3074b9;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  border: none;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+.minhas-licenças:hover {
+  transition: 1s background;
+  background-color: #498cd0;
+
+  cursor: pointer;
+}
+/*--------------container da seção meu negócio--------------*/
+
+.logo-araguaina2 {
+  width: 60%;
+  display: block;
+  margin-left: 40%;
+  position: relative;
+  margin-top: 10%;
+}
+
+#negócio {
+  display: inline-flex;
+  width: 90%;
+  padding: 2% 0 10% 0;
+  position: relative;
+  background-color: #ffffff;
+}
+
+#negócio h1 {
+  margin-bottom: 10%;
+}
+
+.imgnegocio {
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 5%;
+  height: 30%;
+}
+
+.bloco5 {
+  text-align: right;
+  width: 30%;
+  margin-left: 20%;
+}
+
+.nota-fiscal {
+  position: relative;
+  width: 350px;
+  height: 70px;
+  margin-top: 10%;
+
+  background: #3074b9;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  border: none;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+.nota-fiscal:hover {
+  transition: 1s background;
+  background-color: #498cd0;
+  cursor: pointer;
+}
+
+/*--------------container da seção serviços--------------*/
+
+#serviços {
+  margin-left: 5%;
+  width: 90%;
+  padding: 2% 0 10% 0;
+  position: relative;
+  background-color: #ffffff;
+}
+
+#serviços div {
+  display: inline-flex;
+}
+
+#serviços img {
+  margin-top: 10%;
+  width: 30%;
+}
+
+table {
+  margin-top: 10%;
+  width: 50%;
+  margin-left: 10%;
+}
+
+table td {
+  padding: 5%;
+  border-bottom: 2px solid #cee5fd;
+}
+
+table button {
+  margin-top: 4%;
+  text-decoration: underline;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  color: #0d4680;
+}
+
+/*--------------container da seção final--------------*/
+#crescimento {
+  width: 100%;
+  padding: 2% 0 5% 0;
+  position: relative;
+  background-color: #f5f5f5;
+}
+
+#crescimento div {
+  position: absolute;
+  margin-left: 10%;
+  width: 40%;
+  display: inline-block;
+}
+
+#crescimento img {
+  position: relative;
+  width: 25%;
+  margin-left: 60%;
+  margin-top: 5%;
+}
+
+.p1 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 27px;
+}
+
+#crescimento button {
+  position: relative;
+  width: 400px;
+  height: 70px;
+  margin-top: 15%;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  border: none;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  background-color: #fcc817;
+}
+
+#crescimento button:hover {
+  transition: 1s background;
+  background-color: #f2b30f;
+  cursor: pointer;
+}
+
+/* -------------RODAPÉ-----------------*/
+.footer {
+  background-color: #0d4680;
+  bottom: 0;
+  padding-bottom: 120px;
+}
+
+.footer img {
+  margin: 30px 30px 0 150px;
+
+  width: 10%;
+  float: left;
+}
+
+.menuFooter {
+  margin-top: 3%;
+  margin-right: 35%;
+
+  float: right;
+  display: flex;
+
+  text-decoration: none;
+  text-align: center;
+
+  list-style: none;
+}
+
+.menuFooter a {
+  text-decoration: none;
+  padding: 0 1rem 0 0;
+
+  color: #fff;
+}
+
+.menuFooter a:hover {
+  color: #fcc817;
+  text-decoration: underline;
+}

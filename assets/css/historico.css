@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: "Montserrat", sans-serif;
+  background: #f5f5f5;
+}
+
+/*--------------------*\
+  NAV
+\*--------------------*/
+.logo {
+  display: inline-block;
+  width: 8%;
+  padding: 20px 50px 20px 150px;
+}
+header {
+  height: 100px;
+  background-color: #3074b9;
+}
+
+nav {
+  position: absolute;
+  top: 40px;
+  right: 200px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 20px;
+}
+
+nav a {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fcc817;
+  text-decoration: underline;
+}
+
+.voltar {
+  position: absolute;
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.voltar img {
+  width: 26%;
+  float: left;
+}
+
+.voltar button {
+  border: none;
+  border-radius: 16px;
+
+  padding: 1rem 2rem;
+  margin: 0;
+
+  text-decoration: none;
+
+  background: #3074b9;
+  color: #fff;
+
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+
+  cursor: pointer;
+
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.voltar button:hover,
+.voltar button:focus {
+  background: #498cd0;
+}
+
+.titulo {
+  display: inline-block;
+  position: relative;
+  margin-top: 6%;
+  margin-left: 20%;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #3074b9;
+}
+
+h3 {
+  margin-top: 5%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.historico img {
+  width: 30%;
+
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-bottom: 25%;
+}
+
+.footer {
+  background-color: #0d4680;
+  bottom: 0;
+  padding-bottom: 120px;
+}
+
+.footer img {
+  margin: 30px 30px 0 150px;
+
+  width: 10%;
+  float: left;
+}
+
+.menuFooter {
+  margin-top: 3%;
+  margin-right: 35%;
+
+  float: right;
+  display: flex;
+
+  text-decoration: none;
+  text-align: center;
+
+  list-style: none;
+}
+
+.menuFooter a {
+  text-decoration: none;
+  padding: 0 1rem 0 0;
+
+  color: #fff;
+}
+
+.menuFooter a:hover {
+  color: #fcc817;
+  text-decoration: underline;
+}
